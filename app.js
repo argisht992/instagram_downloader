@@ -16,7 +16,7 @@ var router = express.Router();
 var index = router.get('/', function(req, res, next) {
   //res.render('index', { title: 'Express' });
   res.send(JSON.stringify({
-    option: "YES"
+    option: "NO"
   }));
 })
 
